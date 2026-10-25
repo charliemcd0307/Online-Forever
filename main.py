@@ -3,9 +3,9 @@ import json
 import requests
 import websockets
 
-TOKEN = "Add your token here"
-STATUS = "online"  # online / dnd / idle
-CUSTOM_STATUS = "Hey!"  # Leave empty if you don't want a custom status
+TOKEN = "MTQ5NTM4OTYwNTYyNzY5NTEzNQ.GVVGsA.Hm1mOVfri82KrD228-oopwX7ACSjxptN2Ru2mw"
+STATUS = "dnd"  # online / dnd / idle
+CUSTOM_STATUS = "Hey! i am running this acc 24/7 so add @ddoy thank you!"  # Leave empty if you don't want a custom status
 USE_EMOJI = False
 
 headers = {"Authorization": TOKEN}
@@ -29,7 +29,7 @@ if USE_EMOJI:
     activity["emoji"] = {
         "name": "🔥",   # Unicode emoji or emoji name
         "id": None,     # Required only for custom emojis
-        "animated": False
+        "animated": Truw
     }
 
 async def discord_gateway():
